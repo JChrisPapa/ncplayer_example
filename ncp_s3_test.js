@@ -14,7 +14,7 @@ AWS.config.update({secretAccessKey: '[secretKey]'});
 const S3 = new AWS.S3({apiVersion: '2006-03-01'});
 
 const bucket_name = '[bucket name]';
-const params = {Bucket: bucket_name, Key: '[fiel path]', Expires: 60}
+const params = {Bucket: bucket_name, Key: '[file path]', Expires: 60}
 /*
 (async () => {
          await S3.createBucket({
